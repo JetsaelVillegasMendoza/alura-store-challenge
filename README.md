@@ -1,6 +1,6 @@
 # 📊 Alura Store - Análisis de Ventas
 
-![portada del proyecto](https://drive.google.com/file/d/1kvD2jE0flrClD92tQ0fqwBo0_WDqnBXz/view?usp=sharing)
+![portada del proyecto](https://postimg.cc/R3HNSq1R)
 
 ![Static Badge](https://img.shields.io/badge/status-completed-green)
 
@@ -108,7 +108,7 @@ Este proyecto fue desarrollado individualmente como parte de los desafíos de la
 
 ---
 
-##👤 Autor
+## 👤 Autor
 
 [<img src="https://avatars.githubusercontent.com/u/157757330?v=4" width=115><br><sub>Jetsael Villegas</sub>](https://github.com/JetsaelVillegasMendoza)
 
