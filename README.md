@@ -1,6 +1,6 @@
 # 📊 Alura Store - Análisis de Ventas
 
-![portada del proyecto](https://postimg.cc/R3HNSq1R)
+[![portada-de-un-proyecto-de-an-lisis-de.jpg](https://i.postimg.cc/R0PfTHNj/portada-de-un-proyecto-de-an-lisis-de.jpg)](https://postimg.cc/R3HNSq1R)
 
 ![Static Badge](https://img.shields.io/badge/status-completed-green)
 
