@@ -1,120 +1,112 @@
-# 📊 Alura Store - Análisis de Ventas
+# 📊 Alura Store — Sales Analysis for Business Decision Making
 
-[![portada-de-un-proyecto-de-an-lisis-de.jpg](https://i.postimg.cc/R0PfTHNj/portada-de-un-proyecto-de-an-lisis-de.jpg)](https://postimg.cc/R3HNSq1R)
+[![Proyecto](https://i.postimg.cc/R0PfTHNj/portada-de-un-proyecto-de-an-lisis-de.jpg)](https://postimg.cc/R3HNSq1R)
+![Status](https://img.shields.io/badge/status-completed-green)
 
-![Static Badge](https://img.shields.io/badge/status-completed-green)
-
----
-
-## 📑 Índice
-
-- [🧾 Descripción del proyecto](#-descripción-del-proyecto)
-- [🔧 Funcionalidades del análisis](#-funcionalidades-del-análisis)
-- [📂 Acceso al proyecto](#-acceso-al-proyecto)
-- [🛠️ Abre y ejecuta el proyecto](#️-abre-y-ejecuta-el-proyecto)
-- [🧰 Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [👨‍💻 Autor](#-autor)
-- [🪪 Licencia](#-licencia)
+## 📑 Table of Contents
+- [🚀 Project Overview](#-project-overview)
+- [🎯 Business Problem](#-business-problem)
+- [🧠 Approach](#-approach)
+- [📊 Key Insights](#-key-insights)
+- [💡 Final Recommendation](#-final-recommendation)
+- [📂 Repository Contents](#-repository-contents)
+- [⚙️ How to Run](#️-how-to-run)
+- [🧰 Tech Stack](#-tech-stack)
+- [👤 Author](#-author)
 
 ---
 
-## 🧾 Descripción del proyecto
+## 🚀 Project Overview
+Conducted a **sales data analysis across four retail stores** to identify performance differences and support a strategic business decision.
 
-Este proyecto forma parte del curso **Principiante en Modelado de Datos con Python** de Alura LATAM. El objetivo fue ayudar al Sr. Juan, propietario de la cadena **Alura Store**, a decidir cuál de sus cuatro tiendas cerrar basándonos en datos reales de ventas.
-
-Se analizaron diversos aspectos como:
-- Ingresos totales por tienda
-- Categorías más vendidas
-- Evaluaciones de clientes
-- Productos más y menos vendidos
-- Costos y tiempos de envío
-- Distribución geográfica de ventas
-
-El resultado fue una recomendación fundamentada con base en gráficos y métricas.
+The objective was to determine which store should be closed based on **revenue, customer behavior, and operational efficiency**.
 
 ---
 
-## 🔍 Estado del proyecto
+## 🎯 Business Problem
+A retail company needs to optimize operations by closing one of its stores.
 
-✅ Proyecto finalizado
-
----
-
-## 🔧 Funcionalidades del análisis
-
-- `Visualización de ingresos`: Comparación clara de ganancias por tienda.
-- `Análisis de categorías`: Se identifican los productos más populares.
-- `Evaluación de satisfacción`: Análisis de reseñas de clientes por tienda.
-- `Análisis de stock`: Productos más y menos vendidos por ubicación.
-- `Costos logísticos`: Comparativa de envíos y ubicación geográfica.
-- `Recomendación final`: Conclusión con justificación basada en datos.
+The challenge:
+- Compare store performance using multiple metrics  
+- Identify underperforming locations  
+- Support a decision with data-driven insights  
 
 ---
 
-## 📂 Acceso al proyecto
+## 🧠 Approach
+The analysis focused on key performance indicators:
 
-Puedes acceder al código fuente del proyecto directamente en este repositorio.  
-> 💡 *El análisis fue realizado en Google Colab con archivos `.ipynb` y gráficos generados con Matplotlib y Seaborn.*
+- **Revenue analysis** by store  
+- **Product category performance**  
+- **Customer satisfaction (reviews)**  
+- **Top and low-performing products**  
+- **Shipping costs and delivery times**  
+- **Geographical distribution of sales**  
+
+Data was processed and visualized using Python to identify trends and differences across stores.
 
 ---
 
-## 🛠️ Abre y ejecuta el proyecto
+## 📊 Key Insights
+- Significant differences in **revenue distribution** between stores  
+- Some stores show **low sales volume and weaker product performance**  
+- Customer satisfaction varies notably across locations  
+- Logistics (shipping cost and time) impacts overall performance  
 
-Para ejecutar el proyecto en tu máquina local:
+---
 
-1. Clona el repositorio:
+## 💡 Final Recommendation
+Based on the analysis, one store was identified as the least efficient in terms of:
+
+- Revenue generation  
+- Customer satisfaction  
+- Product performance  
+
+👉 **Recommendation:** close the lowest-performing store to optimize overall business performance and resource allocation.
+
+---
+
+## 📂 Repository Contents
+- Data analysis notebook  
+- Data cleaning and transformation steps  
+- Visualizations and business insights  
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/tu-usuario/alura-store.git
+   git clone https://github.com/JetsaelVillegasMendoza/alura-store.git
    ```
 
-2. Accede a la carpeta:
+2. Navigate to the project folder:
    ```bash
-   cd alura-store-análisis
+   cd alura-store
    ```
 
-3. Instala las dependencias (requiere Python 3 y pip):
-    ```bash
-   pip install pandas 
-   pip install matplotlib
+3. Run the notebook using:
+   - Jupyter Notebook
+   - Google Colab
+  
+4. Install dependencies:
+   ```bash
+   pip install pandas matplotlib seaborn
    ```
+---
 
-4. Importa las dependencias:
-     ```bash
-   import pandas as pd 
-   import matplotlib.pyplot as plt
-   ```
+## 🧰 Tech Stack
 
-5. Abre el proyecto en Google Colab.
+- Python  
+- Pandas  
+- Matplotlib, Seaborn  
+- Jupyter Notebook / Google Colab
 
 ---
 
-## 🧰 Tecnologías utilizadas
+## 👤 Author
 
-- Python 3
-
-- Pandas
-
-- Matplotlib
-
-- Seaborn
-
-- Google Colab
-
----
-
-## 🙋 Personas contribuyentes
-
-Este proyecto fue desarrollado individualmente como parte de los desafíos de la formación de Data Science de Alura LATAM.
-
----
-
-## 👤 Autor
-
-[<img src="https://avatars.githubusercontent.com/u/157757330?v=4" width=115><br><sub>Jetsael Villegas</sub>](https://github.com/JetsaelVillegasMendoza)
-
----
-
-## 📝 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
-
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/157757330?v=4" width="115"><br>
+  <sub><b>Jetsael Villegas</b></sub>
+</p>
